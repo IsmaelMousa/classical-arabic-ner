@@ -82,7 +82,7 @@ public class FeatureFactory {
         if (position > 0 && (words.get(position - 1).length() == 4)) features.add("precededVerb=true");
         else features.add("precededVerb=false");
 
-        // Fe-10: Detect if current word or previous word is a known popular name (e.g. بشار ,بشار الأسد) "انا مقتنع بهاي الفيشتر رغم انها خلت السكور يصير عالي"
+        // Fe-10: Detect if current word or previous word is a known popular name (e.g. بشار ,بشار الأسد) "انا مش مقتنع بهاي الفيشتر رغم انها خلت السكور يصير عالي"
         if (popularNames.contains(currentWord)) features.add("popularName=true");
         else features.add("popularName=false");
 
