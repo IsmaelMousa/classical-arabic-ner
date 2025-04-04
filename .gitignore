@@ -21,3 +21,6 @@ myFile.txt
 *iml
 traintest.txt
 testtrain.txt
+classes
+trainWithFeatures.json
+testWithFeatures.json
