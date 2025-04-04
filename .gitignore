@@ -22,5 +22,5 @@ myFile.txt
 traintest.txt
 testtrain.txt
 classes
-trainWithFeatures.json
 testWithFeatures.json
+trainWithFeatures.json
